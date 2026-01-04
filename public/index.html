@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Printer Computers & Systems</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+
+    import { 
+  Wrench, Monitor, Network, Mail, Phone, MessageCircle, Eye, Target, Star,
+  Facebook, Instagram, Linkedin, Cpu, ShieldCheck, Server
+} from 'lucide-react'
+
+  />
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- HERO -->
+  <header class="relative h-[50vh] flex items-center justify-center bg-gradient-to-b from-blue-700 to-blue-400 text-white">
+    <div class="text-center p-6 bg-black/40 rounded-2xl shadow-lg">
+      <div class="mx-auto mb-4 w-24 h-24 rounded-full bg-white shadow flex items-center justify-center">
+        <img src="/images/logo.png" alt="Logo Printer Computers & Systems" class="h-16 w-auto object-contain" />
+      </div>
+      <h1 class="text-5xl font-bold mb-4">Printer Computers & Systems</h1>
+      <p class="text-xl">Soluciones tecnológicas para tu negocio y hogar</p>
+    </div>
+  </header>
+
+  <!-- SOBRE NOSOTROS -->
+  <section class="py-16 bg-gray-50 text-center">
+    <h2 class="text-4xl font-bold mb-6">Sobre Nosotros</h2>
+
+    <div class="max-w-4xl mx-auto space-y-4">
+      <p class="text-justify">
+        <strong>Printer Computers & Systems</strong> es una empresa familiar fundada en el año 2003,
+        especializada en ofrecer soluciones tecnológicas integrales. Nos dedicamos al mantenimiento
+        y reparación de equipos de cómputo, instalación de redes y a la comercialización de suministros,
+        software, accesorios, periféricos y computadoras.
+      </p>
+    </div>
+
+    <!-- Misión y Visión -->
+    <div class="grid md:grid-cols-2 gap-8 mt-10 max-w-5xl mx-auto">
+
+      
+
+      <!-- Misión -->
+      <div class="bg-white p-8 rounded-2xl shadow hover:scale-105 transition text-center">
+        <i class="fa-solid fa-bullseye text-green-600 text-4xl mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-3">Misión</h3>
+        <p class="text-justify">
+         Ofrecer un servicio tecnológico integral para los equipos de computación de las empresas en el país, 
+         brindando soluciones funcionales y confiables, así como una amplia gama de productos informáticos, 
+         orientados a mejorar la continuidad, eficiencia y seguridad de las operaciones de nuestros clientes.
+      </div>
+
+
+      <!-- Visión -->
+      <div class="bg-white p-8 rounded-2xl shadow hover:scale-105 transition text-center">
+        <i class="fa-solid fa-eye text-blue-600 text-4xl mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-3">Visión</h3>
+        <p class="text-justify">
+          Ser una empresa líder y referente en servicios de soporte técnico y comercialización de
+          equipos y suministros de oficina, reconocida por la atención personalizada, la confianza
+          de nuestros clientes y una propuesta competitiva en el mercado nacional.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Valores -->
+    <div class="mt-12 max-w-3xl mx-auto bg-white p-8 rounded-3xl shadow hover:scale-105 transition text-center">
+      <i class="fa-solid fa-star text-yellow-500 text-4xl mb-4"></i>
+      <h3 class="text-2xl font-semibold mb-4">Nuestros Valores</h3>
+      <ul class="grid grid-cols-2 gap-3 text-left max-w-md mx-auto">
+        <li class="flex items-center gap-2"><span class="text-green-600">✓</span>Integridad</li>
+        <li class="flex items-center gap-2"><span class="text-green-600">✓</span>Honestidad</li>
+        <li class="flex items-center gap-2"><span class="text-green-600">✓</span>Calidad</li>
+        <li class="flex items-center gap-2"><span class="text-green-600">✓</span>Trabajo en Equipo</li>
+        <li class="flex items-center gap-2"><span class="text-green-600">✓</span>Compromiso</li>
+        <li class="flex items-center gap-2"><span class="text-green-600">✓</span>Responsabilidad</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="py-16 text-center bg-gray-50">
+  <h2 class="text-4xl font-bold mb-6">Nuestros Servicios</h2>
+
+  <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+    <!-- Servicio 1 -->
+    <div class="bg-white shadow-lg rounded-xl p-6 transition transform hover:scale-105 hover:shadow-2xl">
+      <div class="text-blue-600 text-5xl mb-4">🔧</div>
+      <h3 class="text-2xl font-semibold mb-2">Mantenimiento y Reparación</h3>
+
+      <img
+        src="images/services/mantenimiendo.png"
+        alt="Mantenimiento y reparación"
+        class="mx-auto my-4 h-48 w-full object-cover rounded-xl"
+      >
+
+      <p>
+        Brindamos soporte técnico especializado para computadoras,
+        impresoras y equipos de oficina, garantizando continuidad
+        y buen funcionamiento.
+      </p>
+    </div>
+
+    <!-- Servicio 2 -->
+    <div class="bg-white shadow-lg rounded-xl p-6 transition transform hover:scale-105 hover:shadow-2xl">
+      <div class="text-blue-600 text-5xl mb-4">🖥️</div>
+      <h3 class="text-2xl font-semibold mb-2">Venta de Equipos e Insumos</h3>
+
+      <img
+        src="images/services/ventas.png"
+        alt="Venta de equipos"
+        class="mx-auto my-4 h-48 w-full object-cover rounded-xl"
+      >
+
+      <p>
+        Ofrecemos equipos de cómputo, impresoras, accesorios,
+        repuestos e insumos de marcas reconocidas y alta calidad.
+      </p>
+    </div>
+
+    <!-- Servicio 3 -->
+    <div class="bg-white shadow-lg rounded-xl p-6 transition transform hover:scale-105 hover:shadow-2xl">
+      <div class="text-blue-600 text-5xl mb-4">🌐</div>
+      <h3 class="text-2xl font-semibold mb-2">Instalación de Redes</h3>
+
+      <img
+        src="images/services/redes.png"
+        alt="Instalación de redes"
+        class="mx-auto my-4 h-48 w-full object-cover rounded-xl"
+      >
+
+      <p>
+        Realizamos instalación, configuración y mantenimiento
+        de redes estructuradas para empresas y hogares.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- ================= CONTACTO ================= -->
+<section id="contacto" class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-4">Contáctanos</h2>
+    <p class="text-center text-gray-600 mb-10">
+      Completa el formulario y uno de nuestros asesores se pondrá en contacto contigo.
+    </p>
+
+    <div class="bg-gray-50 rounded-xl shadow-lg p-8 max-w-3xl mx-auto">
+      <form action="/contact" method="POST">
+        <div class="grid md:grid-cols-2 gap-6">
+          <input name="name" required type="text" placeholder="Nombre completo"
+            class="border rounded-lg p-3 w-full" />
+          <input name="email" required type="email" placeholder="Correo electrónico"
+            class="border rounded-lg p-3 w-full" />
+        </div>
+
+        <input name="subject" required type="text" placeholder="Asunto"
+          class="border rounded-lg p-3 w-full mt-6" />
+
+        <textarea name="message" required rows="4" placeholder="Mensaje"
+          class="border rounded-lg p-3 w-full mt-6"></textarea>
+
+        <button type="submit"
+          class="mt-6 w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+          Enviar mensaje
+        </button>
+      </form>
+    </div>
+  </div>
+</section
+
+
+
+
+  <!-- MARCAS -->
+  <section class="py-16 bg-gray-50 text-center">
+    <h2 class="text-4xl font-bold mb-8">Marcas con las que Trabajamos</h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 max-w-6xl mx-auto items-center">
+      <img src="images/brands/microsoft.png" class="h-12 mx-auto object-contain" alt="Microsoft">
+      <img src="images/brands/dell.png" class="h-12 mx-auto object-contain" alt="Dell">
+      <img src="images/brands/hp.png" class="h-12 mx-auto object-contain" alt="HP">
+      <img src="images/brands/Intel.png" class="h-12 mx-auto object-contain" alt="Intel">
+      <img src="images/brands/lenovo.png" class="h-12 mx-auto object-contain" alt="Lenovo">
+      <img src="images/brands/samsung.png" class="h-12 mx-auto object-contain" alt="Samsung">
+      <img src="images/brands/canon.png" class="h-12 mx-auto object-contain" alt="Canon">
+      <img src="images/brands/TripLite.png" class="h-12 mx-auto object-contain" alt="Tripp Lite">
+      <img src="images/brands/apc.png" class="h-12 mx-auto object-contain" alt="APC">
+      <img src="images/brands/norton.png" class="h-12 mx-auto object-contain" alt="Norton">
+      <img src="images/brands/McAfee.png" class="h-12 mx-auto object-contain" alt="McAfee">
+      <img src="images/brands/kas.png" class="h-12 mx-auto object-contain" alt="Kaspersky">
+    </div>
+  </section>
+
+
+<footer class="bg-gray-800 text-white py-10 mt-12">
+  <div class="max-w-6xl mx-auto px-6 text-center space-y-4">
+
+    <!-- Información principal -->
+    <p class="text-sm text-gray-300">
+      <strong>© 2003–2026 Printer Computers & Systems</strong>.  
+    </p>
+
+        <p class="text-sm text-gray-500">
+      Todos los derechos reservados.  
+    </p>
+    
+    <p class="text-sm text-gray-500">
+      Diseñado y desarrollado por Printer Computers & Systems.
+    </p>
+
+    <!-- Separador -->
+    <div class="w-56 h-0.5 bg-blue-500 mx-auto my-4"></div>
+
+    <!-- Contacto -->
+    <div class="space-y-2 text-sm">
+      <p>📧 <a href="mailto:ventas@printersv.com" class="hover:text-blue-400">ventas@printersv.com</a></p>
+      <p>📞 <a href="https://wa.me/78421628" class="hover:text-blue-400">+503 7842-1628</a></p>
+      <p>📍 El Salvador</p>
+    </div>
+
+  </div>
+</footer>
+
+  
+</body>
+</html>
